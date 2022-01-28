@@ -11,11 +11,10 @@ Ever get stuck with too much information in your brain? Need a brain dump? Organ
 * [Queries](#any-questions)
 
 ## Usage
-Clone my files to your repo and go to the "Develop" folder. Open your terminal and enter "npm i -y", enter "npm start" to start the server. Pop open the site at [localhost:3001](http://localhost:3001) and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
+Open [the site](https://still-reaches-43183.herokuapp.com/) and click on the button to Get Started! Click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
 
 ## Installation
-Clone my files to your repo and go to the "Develop" folder. Open your terminal and enter "npm i -y", enter "npm start" to start the server. Pop open the site at [localhost:3001](http://localhost:3001) and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
-See the video below to reference installation and output instructions:
+Visit [Thought Another Note](https://still-reaches-43183.herokuapp.com/) to get started!
 
 
 ## Output:
