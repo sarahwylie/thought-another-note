@@ -1,7 +1,7 @@
 # Thought Another Note!
 
 ## Description
-
+Ever get stuck with too much information in your brain? Need a brain dump? Organize your thoughts with Thought Another Note! Just enter your note title and text, hit save, and the note will populate on your screen. Sign off, handle the employee peeing in the plant, and come back to set your reminder to send out a memo about when the bathrooms will be functional again - your notes will still be there! Never drop a meeting or leave a client out in the rain again. Organize yourself with Thought Another Note.
 
 ## Table of Contents
 * [Usage](#usage)
@@ -11,6 +11,7 @@
 * [Queries](#any-questions)
 
 ## Usage
+Pop open the site at ____ and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
 
 ## Installation
 Clone this repo's code to your computer and pop open the file named 'index.js'. In your terminal, type 'node index' and follow the command prompts. Once you have completed all prompts, you can either prompt your terminal to run (type "npm start" into your terminal) and open localhost:3001 OR hop over to the "dist" folder and pop open your new HTML file (open in your default browser - Chrome recommended) to see your beautiful new Team Profile!
@@ -22,7 +23,7 @@ See the video below to reference installation and output instructions:
 ![Screenshot](./utils/Screenshot.png)
 
 ## Tests
-This application used Jest to test outcomes.
+No tests were used to create this project.
 
 ### Badges
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)

@@ -10,27 +10,34 @@ router.get('/notes', (req, res) => {
     res.json(results);
   });
 
-router.get('/*', (req, res) => {
-    const result = findById(req.params.id, animals);
-    if (result) {
-        res.json(result);
-    } else {
-        res.send(404);
-    }
-});
-
 router.post('/notes', (req, res) => {
-    // req.body is where our incoming content will be
-    // set id based on what the next index of the array will be
     req.body.id = notes.length.toString();
-    // if any data in req.body is incorrect, send 400 error back
     if (!validateNote(req.body)) {
-        res.status(400).send('The note is not properly formatted.')
+        res.status(400).send('The note has exceeded the allowable characters.')
     } else {
-        // add animal to json file and animals array in this function
         const note = createNewNote(req.body, notes);
         res.json(note);
     }
 });
+
+router.put('/notes', (req, res) => {
+    req.body.id = notes.length.toString();
+
+})
+
+router.delete('/api/notes/:id', (req, res) => {
+    const params = [req.params.note];
+    db.query(sql, params, (err, result) => {
+      if (err) {
+        res.statusMessage(400).json({ error: res.message });
+      } else {
+        res.json({
+          message: 'deleted',
+          changes: result.note,
+          id: req.params.note
+        });
+      }
+    });
+})
 
 module.exports = router;
