@@ -11,16 +11,15 @@ Ever get stuck with too much information in your brain? Need a brain dump? Organ
 * [Queries](#any-questions)
 
 ## Usage
-Pop open the site at ____ and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
+Clone my files to your repo and go to the "Develop" folder. Open your terminal and enter "npm i -y", enter "npm start" to start the server. Pop open the site at [localhost:3001](http://localhost:3001) and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
 
 ## Installation
-Clone this repo's code to your computer and pop open the file named 'index.js'. In your terminal, type 'node index' and follow the command prompts. Once you have completed all prompts, you can either prompt your terminal to run (type "npm start" into your terminal) and open localhost:3001 OR hop over to the "dist" folder and pop open your new HTML file (open in your default browser - Chrome recommended) to see your beautiful new Team Profile!
-
+Clone my files to your repo and go to the "Develop" folder. Open your terminal and enter "npm i -y", enter "npm start" to start the server. Pop open the site at [localhost:3001](http://localhost:3001) and click the + to add a new note. Add the title and note text, then hit save to store the note in your dashboard. Click on the note to re-open, and delete the note when you are finished. Voila!
 See the video below to reference installation and output instructions:
 
 
 ## Output:
-![Screenshot](./utils/Screenshot.png)
+![Screenshot](./Screenshot.png)
 
 ## Tests
 No tests were used to create this project.
@@ -29,8 +28,7 @@ No tests were used to create this project.
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ### Any Questions?
