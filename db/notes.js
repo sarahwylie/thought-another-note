@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { up } = require('inquirer/lib/utils/readline');
 const util = require('util');
 const { v4: uuidv4 } = require('uuid');
 const readFileVar = util.promisify(fs.readFile);
